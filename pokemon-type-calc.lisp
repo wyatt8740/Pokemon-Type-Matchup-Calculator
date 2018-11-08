@@ -217,9 +217,9 @@
          )
     
     (if (> (length target-type2) 0)  ;;if type 2 is not an empty string
-        (format t "~A move on ~A/~A target: multiply damage dealt by ~2$x.~%" move-type target-type1 target-type2 (against-two-types move-type target-type1 target-type2))
+        (format t "~A-type move on ~A/~A-type target:~%~2$x damage.~%" (string-downcase move-type) (string-downcase target-type1) (string-downcase target-type2) (against-two-types move-type target-type1 target-type2))
         ;; else, it's easier. do one type comparison and print results
-        (format t "~A move on ~A target: multiply damage dealt by ~2$x.~%" move-type target-type1 (type-get-match (list (cdr(assoc move-type typematch :test #'equal)) (cdr(assoc target-type1 typematch :test #'equal)))))
+        (format t "~A-type move on ~A-type target:~%~2$x damage.~%" (string-downcase move-type) (string-downcase target-type1) (type-get-match (list (cdr(assoc move-type typematch :test #'equal)) (cdr(assoc target-type1 typematch :test #'equal)))))
         ) ;; end if
     )
   ;;(format t "fire vs water ~2$~%" (type-get-match `(,fire ,water)))
