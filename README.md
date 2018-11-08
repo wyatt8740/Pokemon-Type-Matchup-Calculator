@@ -17,3 +17,5 @@ Pokémon: Crystal Version.
 All in all, this was just an excuse for me to use a Lisp - it just seemed like
 the kind of problem that Lisps would be suited to solving (association lists
 made it pretty simple), and I feel like I learned a lot in the process.
+
+Tested in SBCL and in GNU Clisp, both running on Debian Linux.
