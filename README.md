@@ -7,9 +7,10 @@ duplicated. If I come back to this, I'll probably do some tweaks like that and
 input validation. But it works!
 
 Note: if your input is not what my code expects, the program will return
-"normally effective" (1.00x) power due to me not bothering to check inputs
-yet. After all, this was pretty much for private use - but I felt proud enough
-of figuring out Common Lisp that I decided to share.
+"normally effective" (1.00x) power due to it assuming that it's some "non-game"
+type, like shadow type in Colosseum/XD or the ???? type. After all, this was
+pretty much for private use - but I felt proud enough of figuring out Common
+Lisp that I decided to share.
 
 The type match-up data in the code was translated from the ROM data of
 Pokémon: Crystal Version.
