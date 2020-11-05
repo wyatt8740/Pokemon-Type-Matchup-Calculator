@@ -2,7 +2,8 @@
 ;; Pokémon Generation I type matchup calculator
 ;; Written as my second Common Lisp program. There are definitely things I'd
 ;; change/rearrange/put into additional functions, but overall I'm pretty happy
-;; with it!
+;; with it! Since it's based on my first script, it shares most of the same
+;; problems that it has.
 ;;
 ;; Tested in SBCL (Steel Bank Common Lisp), but should run in any Common Lisp
 ;; compliant Lisp.
