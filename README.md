@@ -1,4 +1,4 @@
-# Pokémon type matchup calculator for generations II through V
+# Pokémon type matchup calculators for generations I through V
 
 This is my first time ever really finishing something I started writing in
 Common Lisp. As such, it's not really 'great' code quality. There are several
