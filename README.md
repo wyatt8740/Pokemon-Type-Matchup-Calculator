@@ -12,8 +12,9 @@ type, like shadow type in Colosseum/XD or the ???? type. After all, this was
 pretty much for private use - but I felt proud enough of figuring out Common
 Lisp that I decided to share.
 
-The type match-up data in the code was translated from the ROM data of
-Pokémon: Crystal Version.
+The generation II through V type match-up data in the code was translated from
+the ROM data of Pokémon: Crystal Version. Generation I's was taken from Red
+version.
 
 All in all, this was just an excuse for me to use a Lisp - it just seemed like
 the kind of problem that Lisps would be suited to solving (association lists
